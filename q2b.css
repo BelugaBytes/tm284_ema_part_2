@@ -1,0 +1,150 @@
+body {
+    display: grid;
+    place-items: center;   
+    max-width: 1024px;
+    border: 12px solid black;
+    text-align: center;
+    font-family: "Arial", "Helvetica", "sans-serif";
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    width: 970px;
+    padding: 10px;
+    display: inline-flex;
+    border: 2px solid black;
+    justify-content: center;
+    background-color: #3a4b9f;
+}
+
+.navbar li {
+    margin: 15px;
+}
+
+.navbar li a {
+    color: black;
+    background-color: #d7ecff;
+    padding: 10px 20px;
+    display: block;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+
+.navbar li a:hover {
+    background-color: #fff8c2;
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#ride_details {
+    background-color: #8bb4ff;
+    width: 994px;
+    margin-bottom: 5px;
+    border: 2px solid black;
+    justify-content: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.form_field {
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form_field label {
+    display: inline-block;
+    width: 200px;
+    text-align: right;
+    margin-right: 10px;
+}
+
+.form_field input {
+    width: calc(100% - 220px);
+    height: 25px;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.form_field input:focus {
+    background-color: #fff8c2; /* Change to your desired color */
+}
+
+.banner_image {
+    width: 100%;
+    max-width: 990px;
+    background-color: #b8b6b6;
+    height: 121px;
+    margin-top: 5px;
+    display: block;
+    border: 2px solid black;
+    border-bottom: 1px;
+}
+
+.heading_1 {
+    color: #000;
+    background-color: #f0f0f0;
+    width: 970px;
+    padding: 10px;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    font-size: 1.2em;
+    text-transform: uppercase;
+}
+
+.buttons {
+    width: 200px;
+    height: 50px;
+    margin: 5px;
+    border-radius: 8px;
+    border: 2px solid black;
+    background-color: #d7ecff;
+    cursor: pointer;
+}
+
+.buttons:hover {
+    background-color: #fff8c2;
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+@media (max-width: 375px) {
+    body {
+        border: none;
+    }
+
+    .navbar, .navbar ul {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .form_field {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .form_field label {
+        width: 100%;
+        text-align: left;
+        margin-bottom: 5px;
+    }
+
+    .form_field input {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .buttons {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .heading_1, #ride_details {
+        width: 100%;
+        max-width: 100%;
+    }
+}

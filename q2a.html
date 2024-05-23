@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Create Ride Event</title>
+    <meta name="author" content="Curtis Platt" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="q2a.css" />
+</head>
+<body>
+    <img id="banner_image" src="images/pexels-pixabay-163407.jpg" alt="Mountain bike riders on a sunny day" class="banner_image">
+    <div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="ride_events.html">Ride Events</a></li>
+                <li><a href="other_events.html">Other Events</a></li>
+                <li><a href="memberships.html">Memberships</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="announcements.html">Announcements</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="heading_1">
+        <h1>Create Ride Event</h1>
+    </div>
+    <form id="ride_details" action="https://students.open.ac.uk/mct/tt284/reflect/reflect.php" method="post">
+        <input type="hidden" name="SessionIdentifier" value="ff53-dd45-dcba9876-9090">
+        <div class="form_field">
+            <label for="ride_name">Name of Ride</label>
+            <input type="text" name="ride_name" id="ride_name" value="e.g. High Watcombe to Walton" required>
+        </div>
+        <div class="form_field">
+            <label for="ride_type">Type of Ride</label>
+            <input type="text" name="ride_type" id="ride_type" value="e.g. Road, cyclocross, mountain bike, race" required>
+        </div>
+        <div class="form_field">
+            <label for="ride_date">Date of Ride</label>
+            <input type="text" name="ride_date" id="ride_date" value="e.g. 5/06/2024" required>
+        </div>
+        <div class="form_field">
+            <label for="start_time">Start Time</label>
+            <input type="text" name="start_time" id="start_time" value="e.g. 10.00am" required>
+        </div>
+        <div class="form_field">
+            <label for="duration">Duration</label>
+            <input type="text" name="duration" id="duration" value="e.g. 120 mins" required>
+        </div>
+        <div class="form_field">
+            <label for="meeting_point">Meeting Point</label>
+            <input type="text" name="meeting_point" id="meeting_point" value="e.g. 22" required>
+        </div>
+        <div class="form_field">
+            <label for="distance_km">Distance in km</label>
+            <input type="text" name="distance_km" id="distance_km" value="e.g. 200" required>
+        </div>
+        <div class="form_field">
+            <label for="elevation_m">Elevation in m</label>
+            <input type="text" name="elevation_m" id="elevation_m" value="e.g. 12" required>
+        </div>
+        <div class="form_field">
+            <label for="max_group_size">Maximum Group Size</label>
+            <input type="text" name="max_group_size" id="max_group_size" value="e.g. 10" required>
+        </div>
+        <div class="form_field">
+            <label for="leader_name">Name of Leader</label>
+            <input type="text" name="leader_name" id="leader_name" value="e.g. Helen Smith" required>
+        </div>
+        <div class="form_field">
+            <label for="contact_number">Contact Number</label>
+            <input type="text" name="contact_number" id="contact_number" value="e.g. 07774075441" required>
+        </div>
+        <div class="form_field">
+            <label for="alt_contact">Alternative Contact</label>
+            <input type="text" name="alt_contact" id="alt_contact" value="e.g. 07725076814" required>
+        </div>
+        <div class="form_field">
+            <label for="comments">Comments</label>
+            <input type="text" name="comments" id="comments" value="e.g. flat ride, suitable for beginners and senior members" required>
+        </div>
+        <div>
+            <button class="buttons" type="submit">Create Event</button>
+            <button class="buttons" type="button" onclick="clearForm()">Clear All</button>
+        </div>
+    </form>
+</body>
+</html>

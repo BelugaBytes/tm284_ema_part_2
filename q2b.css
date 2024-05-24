@@ -121,8 +121,55 @@ body {
         width: 100%;
         flex-direction: column;
     }
-
-    .form_field {
+    #form_field_ride_name {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    #form_field_ride_type {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    #form_field_ride_date {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    #form_field_start_time {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    #form_field_duration {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    #form_field_meeting_point {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    #form_field_distance_km {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    #form_field_elevation_m {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    #form_field_max_group_size {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    #form_field_leader_name {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    #form_field_contact_number {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    #form_field_alt_contact {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    #form_field_comments {
         flex-direction: column;
         align-items: flex-start;
     }

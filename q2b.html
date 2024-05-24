@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <title>Create Ride Event</title>
-    <meta name="author" content="Curtis Platt" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="q2a.css" />
+    <meta charset="utf-8">
+    <title>q2b.html</title>
+    <meta name="author" content="Curtis Platt">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="q2b.css">
 </head>
 <body>
     <img id="banner_image" src="images/pexels-pixabay-163407.jpg" alt="Mountain bike riders on a sunny day" class="banner_image">
@@ -26,57 +26,57 @@
     </div>
     <form id="ride_details" action="https://students.open.ac.uk/mct/tt284/reflect/reflect.php" method="post">
         <input type="hidden" name="SessionIdentifier" value="ff53-dd45-dcba9876-9090">
-        <div class="form_field_ride_name">
-            <label for="ride_name">Name of Ride</label>
-            <input type="text" name="ride_name" id="ride_name" value="e.g. High Watcombe to Walton" required>
+        <div id="form_field_ride_name">
+            <label>Name of Ride</label>
+            <input type="text" name="ride_name" value="e.g. High Watcombe to Walton" required>
         </div>
-        <div class="form_field_ride_type">
-            <label for="ride_type">Type of Ride</label>
-            <input type="text" name="ride_type" id="ride_type" value="e.g. Road, cyclocross, mountain bike, race" required>
+        <div id="form_field_ride_type">
+            <label>Type of Ride</label>
+            <input type="text" name="ride_type" value="e.g. Road, cyclocross, mountain bike, race" required>
         </div>
-        <div class="form_field_ride_date">
-            <label for="ride_date">Date of Ride</label>
-            <input type="datetime-local" name="ride_date" id="ride_date" value="e.g. 5/06/2024" required>
+        <div id="form_field_ride_date">
+            <label>Date of Ride</label>
+            <input type="datetime-local" name="ride_date" required>
         </div>
-        <div class="form_field_start_tim">
-            <label for="start_time">Start Time</label>
-            <input type="number" name="start_time" id="start_time" value="e.g. 1000hrs" required>
+        <div id="form_field_start_time">
+            <label>Start Time</label>
+            <input type="text" name="start_time" value="e.g. 0900" required>
         </div>
-        <div class="form_field_duration">
-            <label for="duration">Duration (mins)</label>
-            <input type="number" name="duration" id="duration" value="e.g. 120" required>
+        <div id="form_field_duration">
+            <label>Duration (mins)</label>
+            <input type="number" name="duration" required>
         </div>
-        <div class="form_field_meeting_point">
-            <label for="meeting_point">Meeting Point</label>
-            <input type="text" name="meeting_point" id="meeting_point" value="e.g. The Green Lion Pub" required>
+        <div id="form_field_meeting_point">
+            <label>Meeting Point</label>
+            <input type="text" name="meeting_point" value="e.g. The Green Lion Pub" required>
         </div>
-        <div class="form_field_distance_km">
-            <label for="distance_km">Distance in km</label>
-            <input type="number" name="distance_km" id="distance_km" value="e.g. 200" required>
+        <div id="form_field_distance_km">
+            <label>Distance in km</label>
+            <input type="number" name="distance_km" required>
         </div>
-        <div class="form_field_elevation_">
-            <label for="elevation_m">Elevation in m</label>
-            <input type="number" name="elevation_m" id="elevation_m" value="e.g. 12" required>
+        <div id="form_field_elevation_m">
+            <label>Elevation in m</label>
+            <input type="number" name="elevation_m" required>
         </div>
-        <div class="form_field_max_group_size">
-            <label for="max_group_size">Maximum Group Size</label>
-            <input type="number" name="max_group_size" id="max_group_size" value="e.g. 10" required>
+        <div id="form_field_max_group_size">
+            <label>Maximum Group Size</label>
+            <input type="number" name="max_group_size" required>
         </div>
-        <div class="form_field_leader_name">
-            <label for="leader_name">Name of Leader</label>
-            <input type="text" name="leader_name" id="leader_name" value="e.g. Helen Smith" required>
+        <div id="form_field_leader_name">
+            <label>Name of Leader</label>
+            <input type="text" name="leader_name" value="e.g. Helen Smith" required>
         </div>
-        <div class="form_field_contact_number">
-            <label for="contact_number">Contact Number</label>
-            <input type="number" name="contact_number" id="contact_number" value="e.g. 07774075441" required>
+        <div id="form_field_contact_number">
+            <label>Contact Number</label>
+            <input type="number" name="contact_number" required>
         </div>
-        <div class="form_field_alt_contact">
-            <label for="alt_contact">Alternative Contact</label>
-            <input type="number" name="alt_contact" id="alt_contact" value="e.g. 07725076814" required>
+        <div id="form_field_alt_contact">
+            <label>Alternative Contact</label>
+            <input type="number" name="alt_contact" required>
         </div>
-        <div class="form_field_comments">
-            <label for="comments">Comments</label>
-            <input type="text" name="comments" id="comments" value="e.g. flat ride, suitable for beginners and senior members" required>
+        <div id="form_field_comments">
+            <label>Comments</label>
+            <input type="text" name="comments" value="e.g. flat ride, suitable for beginners and senior members" required>
         </div>
         <div>
             <button class="buttons" type="submit">Create Event</button>

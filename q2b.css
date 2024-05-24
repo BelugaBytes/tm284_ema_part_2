@@ -48,28 +48,328 @@ body {
     box-sizing: border-box;
 }
 
-.form_field {
+#form_field_ride_name {
     margin-bottom: 15px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.form_field label {
+#form_field_ride_name label {
     display: inline-block;
     width: 200px;
-    text-align: right;
+    text-align: left;
     margin-right: 10px;
 }
 
-.form_field input {
-    width: calc(100% - 220px);
+#form_field_ride_name input {
+    width:  100%;
     height: 25px;
     padding: 8px;
     box-sizing: border-box;
 }
 
-.form_field input:focus {
+#form_field_ride_name input:focus {
+    background-color: #fff8c2; /* Change to your desired color */
+}
+
+#form_field_ride_type {
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#form_field_ride_type label {
+    display: inline-block;
+    width: 200px;
+    text-align: left;
+    margin-right: 10px;
+}
+
+#form_field_ride_type input {
+    width:  100%;
+    height: 25px;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+#form_field_ride_type input:focus {
+    background-color: #fff8c2; /* Change to your desired color */
+}
+
+#form_field_ride_date {
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#form_field_ride_date label {
+    display: inline-block;
+    width: 200px;
+    text-align: left;
+    margin-right: 10px;
+}
+
+#form_field_ride_date input {
+    width:  100%;
+    height: 25px;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+#form_field_ride_date input:focus {
+    background-color: #fff8c2; /* Change to your desired color */
+}
+
+#form_field_start_time {
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#form_field_start_time label {
+    display: inline-block;
+    width: 200px;
+    text-align: left;
+    margin-right: 10px;
+}
+
+#form_field_start_time input {
+    width:  100%;
+    height: 25px;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+#form_field_start_time input:focus {
+    background-color: #fff8c2; /* Change to your desired color */
+}
+
+#form_field_duration {
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#form_field_duration label {
+    display: inline-block;
+    width: 200px;
+    text-align: left;
+    margin-right: 10px;
+}
+
+#form_field_duration input {
+    width:  100%;
+    height: 25px;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+#form_field_duration input:focus {
+    background-color: #fff8c2; /* Change to your desired color */
+}
+
+#form_field_meeting_point {
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#form_field_meeting_point label {
+    display: inline-block;
+    width: 200px;
+    text-align: left;
+    margin-right: 10px;
+}
+
+#form_field_meeting_point input {
+    width:  100%;
+    height: 25px;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+#form_field_meeting_point input:focus {
+    background-color: #fff8c2; /* Change to your desired color */
+}
+
+#form_field_distance_km {
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#form_field_distance_km label {
+    display: inline-block;
+    width: 200px;
+    text-align: left;
+    margin-right: 10px;
+}
+
+#form_field_distance_km input {
+    width:  100%;
+    height: 25px;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+#form_field_distance_km input:focus {
+    background-color: #fff8c2; /* Change to your desired color */
+}
+
+#form_field_elevation_m {
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#form_field_elevation_m label {
+    display: inline-block;
+    width: 200px;
+    text-align: left;
+    margin-right: 10px;
+}
+
+#form_field_elevation_m input {
+    width:  100%;
+    height: 25px;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+#form_field_elevation_m input:focus {
+    background-color: #fff8c2; /* Change to your desired color */
+}
+
+#form_field_max_group_size {
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#form_field_max_group_size label {
+    display: inline-block;
+    width: 200px;
+    text-align: left;
+    margin-right: 10px;
+}
+
+#form_field_max_group_size input {
+    width:  100%;
+    height: 25px;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+#form_field_max_group_size input:focus {
+    background-color: #fff8c2; /* Change to your desired color */
+}
+
+#form_field_leader_name {
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#form_field_leader_name label {
+    display: inline-block;
+    width: 200px;
+    text-align: left;
+    margin-right: 10px;
+}
+
+#form_field_leader_name input {
+    width:  100%;
+    height: 25px;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+#form_field_leader_name input:focus {
+    background-color: #fff8c2; /* Change to your desired color */
+}
+
+#form_field_contact_number {
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#form_field_contact_number label {
+    display: inline-block;
+    width: 200px;
+    text-align: left;
+    margin-right: 10px;
+}
+
+#form_field_contact_number input {
+    width:  100%;
+    height: 25px;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+#form_field_contact_number input:focus {
+    background-color: #fff8c2; /* Change to your desired color */
+}
+
+#form_field_alt_contact {
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#form_field_alt_contact label {
+    display: inline-block;
+    width: 200px;
+    text-align: left;
+    margin-right: 10px;
+}
+
+#form_field_alt_contact input {
+    width:  100%;
+    height: 25px;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+#form_field_alt_contact input:focus {
+    background-color: #fff8c2; /* Change to your desired color */
+}
+
+#form_field_comments {
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#form_field_comments label {
+    display: inline-block;
+    width: 200px;
+    text-align: left;
+    margin-right: 10px;
+}
+
+#form_field_comments input {
+    width:  100%;
+    height: 25px;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.form_field_comments input:focus {
     background-color: #fff8c2; /* Change to your desired color */
 }
 
@@ -115,11 +415,13 @@ body {
 @media (max-width: 375px) {
     body {
         border: none;
+
     }
 
     .navbar, .navbar ul {
         width: 100%;
         flex-direction: column;
+
     }
     #form_field_ride_name {
         flex-direction: column;
